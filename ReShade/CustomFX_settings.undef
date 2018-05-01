@@ -1,0 +1,169 @@
+#undef USE_CUSTOM
+#undef USE_CEL
+#undef USE_GAUSS
+#undef USE_TILTSHIFT
+#undef USE_TUNINGPALETTE
+#undef USE_GR8MMFILM
+
+#undef USE_LUT
+#undef USE_TECHNICOLOR
+#undef USE_SKYRIMTONEMAP
+#undef USE_COLORMOOD
+#undef USE_CROSSPROCESS
+#undef USE_REINHARD
+#undef USE_COLORMOD
+#undef USE_SPHERICALTONEMAP
+#undef USE_HPD
+#undef USE_FILMICCURVE
+#undef USE_WATCHDOG_TONEMAP
+#undef USE_SINCITY
+#undef USE_COLORHUEFX
+
+#undef val1
+#undef val2
+
+#undef Custom_ToggleKey
+
+#undef CelAccuracy
+
+#undef Cel_ToggleKey
+
+#undef USE_Blur
+#undef BlurStrength
+#undef USE_Sharpening
+#undef SharpStrength
+#undef GaussQuality
+
+#undef USE_Bloom
+#undef BloomStrength
+#undef GaussBloomQuality
+#undef GaussBloomWarmth
+#undef GaussThreshold
+#undef GaussExposure
+#undef BloomRed
+#undef BloomGreen
+#undef BloomBlue
+
+#undef Gaussian_ToggleKey
+
+#undef ColorCorrection_ToggleKey
+
+#undef TiltShiftPower
+#undef TiltShiftCurve
+#undef TiltShiftOffset
+
+#undef TiltShift_ToggleKey
+
+#undef TuningColorPalette
+#undef TuningColorMap
+#undef TuningColorLUT
+#undef TuningPaletteDependency
+#undef TuningPalettePower
+
+#undef TuningColorPaletteTexture
+#undef TuningColorPalettePower
+#undef TuningColorPaletteSmoothMix
+#undef TuningTileAmountX
+#undef TuningTileAmountY
+
+#undef TuningColorMapTexture
+
+#undef TuningColorLUTDstTexture
+#undef TuningColorLUTNorm
+#undef TuningColorLUTIntensity 
+
+#undef TuningPalette_ToggleKey
+
+#undef Gr8mmFilmTexture	
+#undef Gr8mmFilmTextureSizeX
+#undef Gr8mmFilmTextureSizeY
+#undef Gr8mmFilmTileAmount
+#undef Gr8mmFilmPower
+#undef Gr8mmFilmVignettePower
+#undef Gr8mmFilmAlphaPower
+#undef Gr8mmFilmBlackFrameMix
+#undef Gr8mmFilmScroll
+
+#undef Gr8mmFilm_ToggleKey
+
+#undef ColStrengthR
+#undef ColStrengthG
+#undef ColStrengthB
+#undef TechniBrightness
+#undef TechniStrength
+#undef TechniSat
+
+#undef POSTPROCESS
+
+#undef	EAdaptationMinV1   		
+#undef	EAdaptationMaxV1   		 
+#undef	EContrastV1   			
+#undef	EColorSaturationV1   		 
+#undef	EToneMappingCurveV1   		 
+
+#undef	EAdaptationMinV2 		 
+#undef	EAdaptationMaxV2 		
+#undef	EToneMappingCurveV2 		
+#undef	EIntensityContrastV2 		 
+#undef	EColorSaturationV2		 
+#undef	EToneMappingOversaturationV2 	
+
+#undef	EAdaptationMinV3   		 
+#undef	EAdaptationMaxV3   		 
+#undef	EToneMappingCurveV3   		  
+#undef	EToneMappingOversaturationV3   
+
+#undef	EAdaptationMinV4   		
+#undef	EAdaptationMaxV4  		 
+#undef	EBrightnessCurveV4  		 
+#undef	EBrightnessMultiplierV4  	 
+#undef	EBrightnessToneMappingCurveV4    
+
+#undef	EAdaptationMinV5   		 
+#undef	EAdaptationMaxV5   		  
+#undef	EToneMappingCurveV5   		 
+#undef	EIntensityContrastV5   		 
+#undef	EColorSaturationV5   		
+#undef  HCompensateSatV5
+#undef	EToneMappingOversaturationV5
+
+#undef	EBrightnessV6Day   		 							
+#undef  EIntensityContrastV6Day
+#undef	EColorSaturationV6Day  	 	  					
+#undef  HCompensateSatV6Day
+#undef	EAdaptationMinV6Day   		 						
+#undef	EAdaptationMaxV6Day   		 						
+#undef	EToneMappingCurveV6Day  	 
+#undef	EToneMappingOversaturationV6Day 
+
+#undef fRatio
+#undef moodR
+#undef moodG
+#undef moodB
+
+#undef CrossContrast
+#undef CrossSaturation
+#undef CrossBrightness
+#undef CrossAmount
+
+#undef ReinhardWhitepoint
+#undef ReinhardScale
+
+#undef ColormodChroma
+#undef ColormodGammaR
+#undef ColormodGammaG
+#undef ColormodGammaB
+#undef ColormodContrastR
+#undef ColormodContrastG
+#undef ColormodContrastB
+#undef ColormodBrightnessR
+#undef ColormodBrightnessG
+#undef ColormodBrightnessB
+
+#undef sphericalAmount
+
+#undef USE_COLORSAT
+#undef hueMid
+#undef hueRange
+#undef satLimit
+#undef fxcolorMix

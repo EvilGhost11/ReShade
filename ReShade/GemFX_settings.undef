@@ -1,0 +1,112 @@
+#undef MOTION_BLUR
+#undef ADV_MOTION_BLUR
+#undef MOTION_FOCUS
+#undef AMBIENT_LIGHT
+//#undef ADV_AMBIENT_LIGHT
+#undef BLOOM
+#undef LENSDIRT
+#undef GAUSSIAN_ANAMFLARE
+#undef LENZFLARE
+#undef CHAPMAN_LENS
+#undef GODRAYS
+#undef ANAMFLARE
+
+#undef mbRecall
+#undef mbSoftness
+
+#undef MotionBlur_ToggleKey
+
+#undef ambDepth_Check
+#undef ambDepthRatio
+#undef ambRecall
+#undef ambPrecision
+#undef ambSoftness
+#undef ambSmartMult
+#undef ambIntensity
+#undef ambSmartInt
+
+#undef AdvancedMB_ToggleKey
+
+#undef mfDebug
+#undef mfFocusStrength
+#undef mfZoomStrength
+
+#undef MotionFocus_ToggleKey
+
+#undef alDebug
+
+#undef alInt
+#undef alThreshold
+
+#undef AL_Adaptation
+#undef AL_HQAdapt
+
+#undef alAdapt
+#undef alAdaptBaseMult
+#undef alAdaptBaseBlackLvL
+#undef alAdaptBloomMult
+#undef alAdaptFlareMult
+
+#undef AL_HeatHazeControle
+#undef Depth_HeatHazeControle
+#undef alAdaptHeatMult
+
+#undef AL_Dirt
+#undef AL_Vibrance
+#undef AL_Adaptive
+#undef alDirtInt
+#undef alDirtOVInt
+
+#undef AL_Lens
+#undef alLensThresh
+#undef alLensInt
+
+#undef AmbientLight_ToggleKey
+
+#undef HDR_MODE
+
+#undef BLOOM_MIXMODE
+#undef fBloomThreshold
+#undef fBloomAmount
+#undef fBloomSaturation
+#undef fBloomTint
+
+#undef fLensdirtIntensity
+#undef fLensdirtSaturation
+#undef fLensdirtTint
+#undef iLensdirtMixmode
+#undef lensDirtTex
+
+#undef fAnamFlareThreshold
+#undef fAnamFlareWideness
+#undef fAnamFlareAmount
+#undef fAnamFlareCurve
+#undef fAnamFlareColor
+
+#undef LENZ_DEPTH_CHECK
+#undef fLenzIntensity
+#undef fLenzThreshold
+
+#undef CHAPMAN_DEPTH_CHECK
+#undef ChapFlareTreshold
+#undef ChapFlareCount
+#undef ChapFlareDispersal
+#undef ChapFlareSize
+#undef ChapFlareCA
+#undef ChapFlareIntensity
+
+#undef GODRAY_DEPTH_CHECK
+#undef iGodraySamples
+#undef fGodrayDecay
+#undef fGodrayExposure
+#undef fGodrayWeight
+#undef fGodrayDensity
+#undef fGodrayThreshold
+
+#undef FLARE_DEPTH_CHECK
+#undef fFlareLuminance
+#undef fFlareBlur
+#undef fFlareIntensity
+#undef fFlareTint
+
+#undef Bloom_ToggleKey

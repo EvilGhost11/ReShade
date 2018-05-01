@@ -1,0 +1,269 @@
+#undef USE_ASCII
+#undef USE_CARTOON
+#undef USE_SMAA
+#undef USE_FXAA
+#undef USE_EXPLOSION
+#undef USE_CA
+#undef USE_ADVANCED_CRT
+#undef USE_PIXELART_CRT
+#undef USE_BLOOM
+#undef USE_HDR
+#undef USE_LUMASHARPEN
+#undef USE_LENS_DISTORTION
+
+#undef USE_NOSTALGIA
+#undef USE_LEVELS
+#undef USE_TECHNICOLOR
+#undef USE_DPX
+#undef USE_MONOCHROME
+#undef USE_COLORMATRIX
+#undef USE_LIFTGAMMAGAIN
+#undef USE_TONEMAP
+#undef USE_VIBRANCE
+#undef USE_CURVES
+#undef USE_SEPIA
+#undef USE_FILMICPASS
+#undef USE_REINHARDLINEAR
+#undef USE_VIGNETTE
+#undef USE_FILMGRAIN
+#undef USE_DITHER
+#undef USE_BORDER
+#undef USE_SPLITSCREEN
+#undef USE_Transition
+
+#undef Ascii_input_image
+#undef Ascii_spacing
+
+#undef Ascii_font
+#undef Ascii_font_color
+#undef Ascii_background_color
+#undef Ascii_swap_colors
+
+#undef Ascii_invert_brightness
+#undef Ascii_font_color_mode
+ 
+#undef Ascii_ToggleKey
+
+#undef Transition_time
+#undef Transition_texture
+#undef Transition_texture_width
+#undef Transition_texture_height
+#undef Transition_type
+
+#undef Transition_ToggleKey
+
+#undef SMAA_THRESHOLD
+#undef SMAA_MAX_SEARCH_STEPS
+#undef SMAA_MAX_SEARCH_STEPS_DIAG
+#undef SMAA_CORNER_ROUNDING
+
+#undef SMAA_EDGE_DETECTION
+#undef SMAA_DIRECTX9_LINEAR_BLEND
+
+#undef SMAA_PREDICATION
+#undef SMAA_PREDICATION_THRESHOLD
+#undef SMAA_PREDICATION_SCALE
+#undef SMAA_PREDICATION_STRENGTH
+
+#undef SMAA_DEBUG_OUTPUT
+
+#undef SMAA_ToggleKey
+
+#undef FXAA_QUALITY__PRESET
+#undef fxaa_Subpix
+#undef fxaa_EdgeThreshold
+#undef fxaa_EdgeThresholdMin
+
+#undef FXAA_ToggleKey
+
+#undef Explosion_Radius
+
+#undef Explosion_ToggleKey
+
+#undef Chromatic_shift
+                                        
+#undef Chromatic_strength
+
+#undef CA_ToggleKey
+
+#undef CartoonPower
+#undef CartoonEdgeSlope
+
+#undef Cartoon_ToggleKey
+
+#undef CRTAmount
+
+#undef CRTResolution
+#undef CRTgamma
+#undef CRTmonitorgamma
+#undef CRTBrightness
+#undef CRTScanlineIntensity
+#undef CRTScanlineGaussian
+
+#undef CRTCurvature
+#undef CRTCurvatureRadius
+#undef CRTCornerSize
+#undef CRTDistance
+#undef CRTAngleX
+#undef CRTAngleY
+#undef CRTOverScan
+#undef CRTOversample
+
+#undef AdvancedCRT_ToggleKey
+
+#undef PixelArtCRT_resolution_mode
+#undef PixelArtCRT_resolution_ratio
+#undef PixelArtCRT_fixed_resolution
+
+#undef PixelArtCRT_hardScan
+#undef PixelArtCRT_hardPix
+
+#undef PixelArtCRT_warp
+
+#undef PixelArtCRT_ShadowMask
+
+#undef PixelArtCRT_maskDark
+#undef PixelArtCRT_maskLight
+
+#undef PixelArtCRT_shape
+
+#undef PixelArtCRT_overdrive
+
+#undef PixelArt_ToggleKey
+
+#undef BloomThreshold
+#undef BloomPower
+#undef BloomWidth
+
+#undef Bloom_ToggleKey
+
+#undef HDRPower
+#undef radius2
+
+#undef HDR_ToggleKey
+
+#undef sharp_strength
+#undef sharp_clamp
+
+#undef pattern
+#undef offset_bias
+
+#undef show_sharpen
+
+#undef LumaSharpen_ToggleKey
+
+#undef SharedShader_ToggleKey
+
+#undef Levels_black_point
+#undef Levels_white_point
+
+#undef Levels_highlight_clipping
+
+#undef TechniAmount
+#undef TechniPower
+#undef redNegativeAmount
+#undef greenNegativeAmount
+#undef blueNegativeAmount
+
+#undef Technicolor2_Red_Strength
+#undef Technicolor2_Green_Strength 
+#undef Technicolor2_Blue_Strength
+#undef Technicolor2_Brightness
+#undef Technicolor2_Strength
+#undef Technicolor2_Saturation
+
+#undef Red
+#undef Green
+#undef Blue
+
+#undef ColorGamma
+#undef DPXSaturation
+
+#undef RedC
+#undef GreenC
+#undef BlueC
+
+#undef Blend
+
+#undef Monochrome_conversion_values
+#undef Monochrome_color_saturation
+
+#undef ColorMatrix_Red
+#undef ColorMatrix_Green
+#undef ColorMatrix_Blue
+
+#undef ColorMatrix_strength
+
+#undef RGB_Lift
+#undef RGB_Gamma
+#undef RGB_Gain
+
+#undef Gamma
+
+#undef Exposure
+
+#undef Saturation
+
+#undef Bleach
+
+#undef Defog
+#undef FogColor
+
+#undef Vibrance
+#undef Vibrance_RGB_balance
+
+#undef Curves_mode
+#undef Curves_contrast
+
+#undef Curves_formula
+
+#undef ColorTone
+#undef GreyPower
+#undef SepiaPower
+
+#undef Strenght
+#undef BaseGamma
+#undef Fade
+#undef Contrast
+#undef FSaturation
+#undef FBleach
+#undef FRedCurve
+#undef FGreenCurve
+#undef FBlueCurve
+#undef BaseCurve
+#undef EffectGammaR
+#undef EffectGammaG
+#undef EffectGammaB
+#undef EffectGamma
+#undef Linearization
+#undef LumCoeff
+
+#undef ReinhardLinearWhitepoint
+#undef ReinhardLinearPoint
+#undef ReinhardLinearSlope
+
+#undef Daltonize_type
+
+#undef FilmGrain_intensity
+#undef FilmGrain_variance
+#undef FilmGrain_SNR
+
+#undef FilmGrain_mean
+
+#undef VignetteType
+#undef VignetteRatio
+#undef VignetteRadius
+#undef VignetteAmount
+#undef VignetteSlope
+#undef VignetteCenter
+
+#undef dither_method
+
+#undef border_width
+#undef border_ratio
+                                        
+#undef border_color
+
+#undef splitscreen_mode
+
+#undef custom_strength
